@@ -13,6 +13,9 @@ public class Main {
 
         System.out.println("Переполнение: " + (a + 1));
         System.out.println("Переполнение +2: " + (a + 2));
+        System.out.println("Переполнение -1: " + (Integer.MIN_VALUE - 1));
+
+        System.out.println("=============");
 
         a = 12000;
         System.out.println("a + b = " + (a + b));
